@@ -23,10 +23,12 @@ On first run, `coffee.db` is created next to `app.py` and seeded with five coffe
 ## Project structure
 
 ```
-coffee_rating/
-├── app.py        # Flask app, database logic, API routes, HTML page
-├── coffee.db     # created on first run
-└── README.md
+.
+├── app.py             # Flask app, database logic, API routes, HTML page
+├── requirements.txt   # Python dependencies
+├── .gitignore         # keeps coffee.db out of the repo
+├── README.md
+└── coffee.db          # created on first run
 ```
 
 ## Database
